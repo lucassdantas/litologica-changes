@@ -1,0 +1,127 @@
+.img-item {
+  width: 189px !important;
+  border-radius: 50px 0;
+  height: 142px !important;
+}
+.owl-theme {
+  height: 490px !important;
+}
+
+.owl-theme .owl-nav {
+  width: 74% !important;
+  height: 20px !important;
+  margin: -180px auto 0 auto !important;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.owl-theme .owl-nav > button > img {
+  max-height: 40px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  height: 20px !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: none !important;
+}
+
+.container-background {
+  background-color: #17324b;
+  border-radius: 50px 0 0 0;
+  /* margin: 0 auto; */
+}
+
+.moldura {
+  width: 236px;
+  height: 440px;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 40px 0;
+  padding: 1rem;
+}
+
+a.link-conheca-servico {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.owl-item {
+  opacity: 0.3 !important;
+  transition: all 800ms ease-in-out;
+}
+
+.owl-item.active.center {
+  opacity: 1 !important;
+}
+.owl-carousel .owl-item img {
+  margin: 0 auto;
+}
+
+h2.title-slider-servico {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 2rem 0;
+  font-size: 20px;
+  line-height: 24.38px;
+}
+h3.title-conheca-servico {
+  margin: 1rem 0;
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media (min-width: 700px) {
+  /* .container-background {
+    max-width: 1280px;
+  } */
+  .owl-theme {
+    height: 680px !important;
+  }
+  .img-item {
+    width: 370px !important;
+    height: 245px !important;
+  }
+
+  .item {
+    width: 500px;
+  }
+
+  .moldura {
+    margin: 0 auto;
+    width: 462px !important;
+    padding: 4rem 3rem;
+    font-size: 1rem;
+    height: 585px !important;
+  }
+
+  .owl-theme .owl-nav {
+    width: 572px !important;
+    cursor: pointer;
+  }
+
+  h2.title-slider-servico {
+    font-size: 48px;
+    padding: 4rem 0;
+    line-height: 58.51px;
+  }
+
+  h3.title-conheca-servico {
+    font-size: 36px !important;
+  }
+
+  .owl-theme .owl-nav {
+    width: 75%;
+    margin-top: -280px !important;
+  }
+
+  .owl-theme .owl-nav > button > img {
+    max-height: 64px;
+  }
+  a.link-conheca-servico {
+    font-size: 16px;
+  }
+}

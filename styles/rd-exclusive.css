@@ -67,10 +67,21 @@
   height:300px;
   object-fit:cover;
 }
+
 .dropdown-services-menu, .services-item-menu{
-  color:#fff;
+  color:inherit;
 }
 .dropdown-services-menu:hover, .services-item-menu:hover{
+  color:inherit;
+}
+
+.sticky-top .services-item-menu, .sticky-top .dropdown-services-menu{
+  color:var(--bs-dark);
+}
+.sticky-top .services-item-menu:hover, 
+.sticky-top .nav-link:hover, 
+.sticky-top .nav-item:hover, 
+.sticky-top .dropdown-services-menu:hover{
   color:#fff;
 }
 
